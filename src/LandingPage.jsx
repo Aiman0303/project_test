@@ -4,8 +4,6 @@ import "./Landing.css";
 // ── Styles ──────────────────────────────────────────────────────────────────
 const globalStyles = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400;500&display=swap');
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
 
 
