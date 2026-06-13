@@ -13,8 +13,9 @@ const globalStyles = `
 
 // ── Data ─────────────────────────────────────────────────────────────────────
 const NAV_LINKS = [
-  { label: "Menu", href: "#menu" },
-  { label: "Our Story", href: "#about" },
+  { label: "Home", href: "#menu" },
+  { label: "Services", href: "#menu" },
+  { label: "About Us", href: "#about" },
   { label: "Visit Us", href: "#visit" },
 ];
 
@@ -71,7 +72,7 @@ const HOURS = [
 function Navbar() {
   return (
     <nav className="nav">
-      <a href="#" className="nav-logo">Harlow &amp; Co.</a>
+      <a href="#" className="nav-logo">Company name</a>
       <ul className="nav-links">
         {NAV_LINKS.map((l) => (
           <li key={l.href}>
@@ -88,16 +89,15 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-text">
-        <p className="hero-eyebrow">Est. 2009 · Fernwick Village</p>
+        <p className="hero-eyebrow">Establish date</p>
         <h1>
-          Baked fresh,<br />every morning.
+          Testing
         </h1>
         <p>
-          We rise at 4am so you don't have to. Slow-fermented sourdoughs,
-          hand-laminated pastries, and seasonal sweets — made the unhurried way.
+         Trademark
         </p>
         <div className="hero-actions">
-          <a href="#menu" className="btn-primary">See the Menu</a>
+          <a href="#menu" className="btn-primary">Services</a>
           <a href="#visit" className="btn-ghost">
             Find us
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5">
