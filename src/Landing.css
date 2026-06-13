@@ -57,7 +57,7 @@ body, html {
 
   .hero {
     display: grid;
-    background: #dda432;
+    background: #cbc5ba;
     grid-template-columns: 1fr 1fr;
     min-height: 88vh;
     align-items: center;
