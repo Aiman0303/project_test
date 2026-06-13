@@ -1,9 +1,10 @@
-body {
+body, html {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #1a1a18;
     background: #faf9f7;
     line-height: 1.7;
+    width: 100%;
   }
 
   .nav {
